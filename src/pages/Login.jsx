@@ -59,6 +59,9 @@ export default function Login() {
           <Typography variant="body2" align="center" sx={{ mt: 2 }}>
             Don't have an account? <Link to="/register">Register</Link>
           </Typography>
+          <Typography variant="body2" align="center" sx={{ mt: 1 }}>
+            <Link to="/forgot-password">Forgot Password?</Link>
+          </Typography>
         </Box>
       </Box>
     </Container>
